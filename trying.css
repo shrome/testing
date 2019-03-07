@@ -6,18 +6,15 @@ body{
   Background-color: gray;
   margin: 0;
 }
-h2{
-  text-align: center;
-  color: darkmagenta;
-}
 ul{
   background-color: white;
   overflow: hidden;
   list-style-type: none;
   margin:0;
   padding: 0px;
+  position: fixed;
 }
-li{
+li :not(#Sign_in,#Sign_up){
   float: left;
 }
 li a{
