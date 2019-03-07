@@ -14,8 +14,8 @@ ul{
   padding: 0px;
   position: fixed;
 }
-li :not(#Map){
-  float: right;
+li {
+  float:left;
 }
 li a{
   text-decoration: none;
