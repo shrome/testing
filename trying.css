@@ -14,8 +14,8 @@ ul{
   padding: 0px;
   position: fixed;
 }
-li :not(#Sign_in,#Sign_up){
-  float: left;
+li :not(#Map){
+  float: right;
 }
 li a{
   text-decoration: none;
