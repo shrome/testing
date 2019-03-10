@@ -1,18 +1,20 @@
-h1{
+@media (min-width:401px) {
+  h1{
+  content:"Hello world";
   text-align: center;
   color: white;
-}
-body{
+  }
+  body{
   Background-color: gray;
   margin: 0;
+  }
 }
 ul{
   background-color: white;
   overflow: hidden;
   list-style-type: none;
   margin:0;
-  padding: 0px;
-  position: fixed
+  position: sticky;
 }
 li {
   float:left;
@@ -20,7 +22,7 @@ li {
 li a{
   text-decoration: none;
   margin: 0;
-  padding: 10px 10px;
+  padding: 10px;
   color: black;
   display: block;
 }
@@ -28,12 +30,13 @@ li :hover{
   background-color: Black;
   color: white;
 }
-@@media (max-width : 400px) {
+@media (max-width : 400px) {
   h1{
-    content: "Hello world";
+    content: "Hello";
     text-align: center;
+    color: white
   }
   body{
-    color: black;
+    background-color: black;
   }
 }
