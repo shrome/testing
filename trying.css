@@ -12,7 +12,7 @@ ul{
   list-style-type: none;
   margin:0;
   padding: 0px;
-  position: fixed;
+  position: fixed
 }
 li {
   float:left;
@@ -27,4 +27,13 @@ li a{
 li :hover{
   background-color: Black;
   color: white;
+}
+@@media (max-width : 400px) {
+  h1{
+    content: "Hello world";
+    text-align: center;
+  }
+  body{
+    color: black;
+  }
 }
