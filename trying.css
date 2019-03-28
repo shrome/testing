@@ -1,49 +1,27 @@
-@media (min-width:401px) {
-  h1{
-  content:"Hello world";
+body{
+  margin: 0px;
+  background-color: lightgreen;
+}
+
+h1{
   text-align: center;
-  color: white;
-  }
-  body{
-  Background-color: gray;
-  margin: 0;
-  }
+  font-size: 60px;
 }
-ul{
-  background-color: white;
-  overflow: hidden;
-  list-style-type: none;
-  margin:0;
-  position: sticky;
+
+p,h2{
+  text-align: center;
+  font-size: 30px;
 }
-li {
-  float:left;
-}
-li a{
+
+a{
   text-decoration: none;
-  margin: 0;
-  padding: 10px;
-  color: black;
-  display: block;
+  background-color: white;
+  padding: 10px 20px;
+  position: absolute;
+  left: 46.6%;
 }
-li :hover{
-  background-color: Black;
+
+a :hover{
+  background-color: black;
   color: white;
-}
-@media (max-width : 400px) {
-  h1{
-    content: "Hello";
-    text-align: center;
-    color: white
-  }
-  body{
-    background-color: black;
-  }
-}
-h3 {
-  font-family: sans-serif;
-  background-color: green;
-  text-align: center;
-  margin: 0;
-  font-size: 40px;
 }
