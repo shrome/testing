@@ -25,3 +25,8 @@ a :hover{
   background-color: black;
   color: white;
 }
+
+button{
+  display: flex;
+  flex-wrap: wrap;
+}
