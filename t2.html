@@ -3,14 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>CUSfo</title>
-    <link type="text/css" rel="stylesheet" href="trying.css">
+    <link type="text/css" rel="stylesheet" href="t2.css">
+    <style>
+    body{
+      margin: 0px;
+      background-color: grey;
+    }
+    a{
+      text-decoration: none;
+      text-align: center;
+      font-size: 50px;
+      margin: 0px;
+    }
+    a.halal{
+      background-color: black;
+      color: white;
+      width:50%;
+      position:absolute;
+      padding-top:21.3%;
+      padding-bottom: 21.3%;
+    }
+    a.non-halal{
+      background-color: white;
+      color: black;
+      width: 50%;
+      padding-top:21.3%;
+      padding-bottom: 21.3%;
+      position:absolute;
+      left:677px;
+    }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="trying.js"></script>
   </head>
   <body>
     <form action="" method="post">
-      <button type="button" name="button"></button>
-      <button type="button" name="button"></button>
-      <button type="button" name="button"></button>
-      <button type="button" name="button"></button>
+      <div id="hal">
+        <a href="" class="halal">Halal</a>
+        <a href="" class="non-halal">Non-Halal</a>
+      </div>
     </form>
   </body>
 </html>
